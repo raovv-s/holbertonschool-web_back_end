@@ -3,7 +3,7 @@
 import pymongo
 
 
-def school_by_topic(mongo_collection, topic):
+def schools_by_topic(mongo_collection, topic):
     """find function"""
 
     return list(mongo_collection.find({"topics": topic}))
