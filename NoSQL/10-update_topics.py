@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """task 10 update"""
-import mongo
+import pymongo
 
 
 def update_topics(mongo_collection, name, topics):
