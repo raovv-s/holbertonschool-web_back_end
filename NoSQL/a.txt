@@ -1,6 +1,0 @@
-// record update
-db.school.update(
-  { name: "Holberton school" },               // фильтр
-  { $set: { address: "972 Mission street" } }, // обновление
-  { upsert: true, multi: true }               // создаст новый документ, если нет
-) 
